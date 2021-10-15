@@ -4,16 +4,16 @@ import (
 	"crypto/rand"
 	"crypto/sha1"
 	"database/sql"
-	"fmt"
-	_ "github.com/lib/pq"
+	_ "github.com/go-sql-driver/mysql"
 	"log"
+	"fmt"
 )
 
 var Db *sql.DB
 
 func init() {
 	var err error
-	Db, err = sql.Open("postgres", "dbname=chitchat sslmode=disable")
+	Db, err = sql.Open("mysql", "root:gaojun@tcp(localhost:3306)/chitchat?charset=utf8")
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -1,0 +1,61 @@
+ERROR 2015/11/27 23:47:46 utils.go:100: dial tcp [::1]:5432: getsockopt: connection refused Cannot find user
+ERROR 2015/11/27 23:48:03 utils.go:100: dial tcp [::1]:5432: getsockopt: connection refused Cannot create user
+ERROR 2015/11/27 23:48:11 utils.go:100: dial tcp [::1]:5432: getsockopt: connection refused Cannot find user
+ERROR 2015/11/27 23:48:39 utils.go:100: pq: database "chitchat" does not exist Cannot find user
+ERROR 2015/11/27 23:48:51 utils.go:100: pq: database "chitchat" does not exist Cannot create user
+ERROR 2015/11/27 23:48:56 utils.go:100: pq: database "chitchat" does not exist Cannot find user
+WARNING 2015/11/28 08:41:08 utils.go:105: <nil> Failed to get cookie
+ERROR 2021/10/14 11:04:14 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 11:04:29 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 11:04:38 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 11:04:58 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 11:05:14 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 11:09:29 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 11:09:40 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 11:09:53 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 11:35:22 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 11:35:30 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 11:35:42 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 11:42:52 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 12:08:30 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 12:08:49 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 12:11:16 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 12:11:25 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/14 12:47:14 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 12:50:14 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 12:53:41 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 13:12:06 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 13:33:26 utils.go:100: dial tcp 192.168.0.104:3306: connect: connection refused Cannot create user
+ERROR 2021/10/14 13:34:47 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 13:41:07 utils.go:100: Error 1054: Unknown column '$1' in 'field list' Cannot create user
+ERROR 2021/10/14 13:42:50 utils.go:100: Error 1305: FUNCTION chitchat.createUUID does not exist Cannot create user
+ERROR 2021/10/14 19:08:37 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 19:13:28 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 21:25:20 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 21:29:31 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user xxxxx
+ERROR 2021/10/14 21:37:55 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 21:43:52 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 21:49:20 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2021/10/14 21:58:47 utils.go:100: dial tcp 192.168.0.101:3306: connect: connection refused Cannot create user
+ERROR 2021/10/15 08:48:04 utils.go:100: Error 1054: Unknown column '$1' in 'field list' Cannot create user
+ERROR 2021/10/15 08:50:39 utils.go:100: Error 1054: Unknown column '$1' in 'field list' Cannot create user
+ERROR 2021/10/15 09:00:22 utils.go:100: sql: Scan error on column index 2, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot create user
+ERROR 2021/10/15 09:08:22 utils.go:100: Error 1062: Duplicate entry 'xgaojun@163.com' for key 'email' Cannot create user
+ERROR 2021/10/15 09:09:07 utils.go:100: Error 1062: Duplicate entry 'xgaojun@163.com' for key 'email' Cannot create user
+ERROR 2021/10/15 09:11:34 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/15 09:12:44 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/15 09:19:12 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/15 09:20:58 utils.go:100: Error 1054: Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2021/10/15 09:28:43 utils.go:100: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2021/10/15 09:28:43 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2021/10/15 09:28:54 utils.go:100: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2021/10/15 09:28:54 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2021/10/15 09:29:07 utils.go:100: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2021/10/15 09:29:07 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2021/10/15 09:57:33 utils.go:100: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2021/10/15 09:57:33 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2021/10/15 10:01:59 utils.go:100: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2021/10/15 10:01:59 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from sessions where last_insert_id()' at line 1 Cannot create session
+ERROR 2021/10/15 10:09:58 utils.go:100: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2021/10/15 10:09:58 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from sessions where last_insert_id()' at line 1 Cannot create session
+ERROR 2021/10/15 10:13:09 utils.go:100: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
